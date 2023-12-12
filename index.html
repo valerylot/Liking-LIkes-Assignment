@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is where the nav-bar starts -->
+    <div class="nav-container">
+        <div class="nav-bar">
+            <h1>Network</h1>
+        </div>
+
+    <!-- This is where the body of the page starts -->
+    <div class="body-container">
+        <h2>Your Feed</h2>
+        <div class="body">
+            <!-- This is the start of the left column -->
+            <div class="left-col">
+                <img src="./Static/user-circle.png" alt="user icon" class="img"><br>
+                <a href="#" class="avatar-link">Add an avatar</a><br>
+                <p>James Doe</p>
+            </div>
+            <!-- This is the start of the right column -->
+            <div class="right-col">
+                <div class="user1">
+                    <div class="user-top">
+                        <p>Neil M</p>
+                        <p class="likes"><span class="counter1">9</span> like(s)</p>
+                        <button class="btn1" onclick="btnClicks()">Like</button>
+                    </div>
+                    <div class="user-bottom">
+                        <p>I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="user2">
+                    <div class="user-top">
+                        <p>Nichole K</p>
+                        <p class="likes"><span class="counter2">12</span> like(s)</p>
+                        <button class="btn2" onclick="btnClicks2()">Like</button>
+                    </div>
+                    <div class="user-bottom">
+                        <p>Just finished my <a href="#">next comic</a> check it out.</p>
+                    </div>
+                </div>
+                <div class="user3">
+                    <div class="user-top">
+                        <p>Jim R</p>
+                        <p class="likes"><span class="counter3">9</span> like(s)</p>
+                        <button class="btn3" onclick="btnClicks3()">Like</button>
+                    </div>
+                    <div class="user-bottom">
+                        <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
